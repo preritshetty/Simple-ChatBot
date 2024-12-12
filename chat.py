@@ -9,7 +9,7 @@ from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
-# Enable CORS for the frontend running on Live Server
+# Enable CORS for the frontend running on Live Server 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://127.0.0.1:5500"],  # Frontend URL
